@@ -1,0 +1,5 @@
+name: Redstone
+main: git.jackwisdom.mcp.RedstoneDetector
+version: 0.1
+author: [JackWisdom]
+api-version: 1.13

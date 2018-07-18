@@ -1,7 +1,7 @@
 package git.jackwisdom.mcp;
 
-import com.sun.org.apache.regexp.internal.RE;
 import org.bukkit.Bukkit;
+import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
@@ -32,7 +32,7 @@ public class RedstoneDetector extends JavaPlugin implements Listener {
     }
     @EventHandler
     public void onBlockRedstone(BlockRedstoneEvent event){
-        if(event.getBlock().getType()!=Material.REDSTONE){
+        if(event.getBlock().getType()!=Material.REDSTONE_WIRE){
             return;
         }
        int hash= event.getBlock().getLocation().hashCode();
@@ -43,6 +43,11 @@ public class RedstoneDetector extends JavaPlugin implements Listener {
           int amount=map.get(hash);
           if(amount>=limit) {
               event.getBlock().breakNaturally();
+              String m=msg;
+              Location loc=event.getBlock().getLocation();
+              String l="X:"+loc.getBlockX()+" Y:"+loc.getBlockY()+" Z:"+loc.getBlockZ();
+              m.replace("%l%",l);
+              Bukkit.broadcastMessage(m);
               map.remove(hash);
               return;
           }
