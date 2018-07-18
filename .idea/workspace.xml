@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d97e17d6-8e6e-4a1a-b995-e6e91cc900b5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../RedstoneDetectorV13/.idea/artifacts/redstone.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RedstoneDetectorV13/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedstoneDetectorV13/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedstoneDetectorV13/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../RedstoneDetectorV13/src/git/jackwisdom/mcp/RedstoneDetector.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RedstoneDetectorV13/src/git/jackwisdom/mcp/RedstoneDetector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RedstoneDetectorV13/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../RedstoneDetectorV13/src/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/../RedstoneDetectorV13/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +23,8 @@
       <file leaf-file-name="RedstoneDetector.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../RedstoneDetectorV13/src/git/jackwisdom/mcp/RedstoneDetector.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+            <state relative-caret-position="190">
+              <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#684#804#0" expanded="true" />
@@ -86,9 +83,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="340" />
+    <option name="x" value="462" />
+    <option name="y" value="21" />
     <option name="width" value="1097" />
-    <option name="height" value="788" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -200,15 +198,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531881066451</updated>
-      <workItem from="1531881071320" duration="1333000" />
+      <workItem from="1531881071320" duration="1579000" />
     </task>
+    <task id="LOCAL-00001" summary="fix bugs">
+      <created>1531882417281</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1531882417281</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1333000" />
+    <option name="totallyTimeSpent" value="1579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="340" y="0" width="1097" height="788" extended-state="0" />
+    <frame x="590" y="15" width="1097" height="714" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
@@ -217,7 +223,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50073206" side_tool="true" visible="true" weight="0.3080357" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50073206" side_tool="true" visible="true" weight="0.34615386" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
@@ -247,6 +253,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bugs" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/../mctst/spigot-latest.jar!/org/bukkit/Location.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -262,6 +272,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="2237" column="18" selection-start-line="2237" selection-start-column="18" selection-end-line="2237" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../RedstoneDetectorV13/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -271,8 +288,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../RedstoneDetectorV13/src/git/jackwisdom/mcp/RedstoneDetector.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="48" column="31" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        <state relative-caret-position="190">
+          <caret line="47" column="88" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#684#804#0" expanded="true" />

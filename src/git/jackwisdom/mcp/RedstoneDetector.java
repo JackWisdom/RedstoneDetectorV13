@@ -45,9 +45,9 @@ public class RedstoneDetector extends JavaPlugin implements Listener {
               event.getBlock().breakNaturally();
               String m=msg;
               Location loc=event.getBlock().getLocation();
-              String l="X:"+loc.getBlockX()+" Y:"+loc.getBlockY()+" Z:"+loc.getBlockZ();
-              m.replace("%l%",l);
-              Bukkit.broadcastMessage(m);
+              String l="X:"+loc.getBlockX()+" Y:"+loc.getBlockY()+" Z:"+loc.getBlockZ() ;
+
+              Bukkit.broadcastMessage( m.replace("%l%",l));
               map.remove(hash);
               return;
           }
